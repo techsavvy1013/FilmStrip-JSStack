@@ -14,7 +14,8 @@ router.get('/', async (req, res) => {
     
     const filmData = ImageData;
     console.log('Film Data:', filmData);
-    res.send(filmData.slice(skip*4, skip*4 + 4));
+    // res.send(filmData.slice(skip*4, skip*4 + 4));
+    res.send(filmData);
   } catch (err) {
     console.log('Error:', err);
     res.status(500).send();

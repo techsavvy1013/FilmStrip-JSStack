@@ -17,6 +17,7 @@ app.use(
 );
 
 app.use(imagesRoutes);
+app.use(express.static('Images'));
 
 app.get('/', (req, res) => {
   res.send('FilmStrip');
