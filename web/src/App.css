@@ -1,0 +1,10 @@
+.slider-icons {
+  transition: 0.3s ease;
+}
+.slider-icons:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.slider-icons.inactive {
+  opacity: 0.3;
+}
